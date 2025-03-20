@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FC } from "react";
 import Heading from "@/Component/Heading";
 
-interface FeatureBlockProps extends featureBlock {}
+type FeatureBlockProps = featureBlock
 
 const FeatureBlock: FC<FeatureBlockProps> = ({
   title,
